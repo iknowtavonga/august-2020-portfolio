@@ -16,7 +16,7 @@ body{
 /*Top Welcome section*/
 .welcome{
     background: #191919;
-    height: 8vh;
+    height: 48px;
     padding: 6px 24px;
     text-align: center;
     color: #F4D35E;
@@ -34,7 +34,7 @@ body{
 
 /*Navigation*/
 nav{
-    height: 10vh;
+    height: 70px;
     position: sticky;
     top: 0px;
     background-color: #000000;
