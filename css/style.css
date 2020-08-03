@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap');
 
 @keyframes change-color{
     from{background-color: black;}
-    to{background-color: #B1740F;}
+    to{background-color: #F4D35E;}
 }
 
 /*Global*/
@@ -10,7 +10,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #FAF0CA;
+    background-color: #EEF0EF;
     font-family: 'Open Sans', sans-serif;
 }
 /*Top Welcome section*/
@@ -19,9 +19,9 @@ body{
     height: 8vh;
     padding: 6px 24px;
     text-align: center;
-    color: #B1740F;
+    color: #F4D35E;
     margin: 0px;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
     letter-spacing: 2px;
     font-size: 24px;
     font-style: italic;
@@ -51,8 +51,8 @@ nav{
 
 .navigation a{
     display: inline-block;
-    font: menu;
-    font-size: 18px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.5em;
     letter-spacing: 3px;
     padding: 22px 24px;
     text-decoration: none;
@@ -64,18 +64,39 @@ nav{
 .navigation a:hover{
     font-weight: bold;
     animation: change-color 1s;
-    background: #B1740F;
-
+    background: #F4D35E;
     color: black;
 }
 
 /*Showcase*/
 
-.showcase{
+#showcase{
     background-image: url('../img/showcase.jpg');
     background-position: center;
     background-size: cover;
     height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#showcase button{
+    height: 50px;
+    width: 90px;
+    background: transparent;
+    outline: none;
+    border: 2px solid #662E0E;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#showcase button a{
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.3em;
+    padding: 8px 10px;
+    text-decoration: none;
+    color: black;
 }
 
 .par{
