@@ -5,6 +5,7 @@
     to{background-color: #B1740F;}
 }
 
+/*Global*/
 body{
     margin: 0;
     padding: 0;
@@ -12,9 +13,10 @@ body{
     background-color: #FAF0CA;
     font-family: 'Open Sans', sans-serif;
 }
-
+/*Top Welcome section*/
 .welcome{
     background: #191919;
+    height: 8vh;
     padding: 6px 24px;
     text-align: center;
     color: #B1740F;
@@ -30,7 +32,9 @@ body{
     margin: 10px 0;
 }
 
+/*Navigation*/
 nav{
+    height: 10vh;
     position: sticky;
     top: 0px;
     background-color: #000000;
@@ -50,7 +54,7 @@ nav{
     font: menu;
     font-size: 18px;
     letter-spacing: 3px;
-    padding: 16px 24px;
+    padding: 22px 24px;
     text-decoration: none;
     text-transform: uppercase;
     color: #f2f2f2;
@@ -63,6 +67,15 @@ nav{
     background: #B1740F;
 
     color: black;
+}
+
+/*Showcase*/
+
+.showcase{
+    background-image: url('../img/showcase.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
 }
 
 .par{
