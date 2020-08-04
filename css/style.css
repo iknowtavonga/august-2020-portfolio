@@ -100,11 +100,43 @@ nav{
 }
 
 /*Portfolio Projects section*/
+.section-title{
+    background: #191919;
+    height: 48px;
+    padding: 6px 24px;
+    text-align: center;
+    color: #F4D35E;
+    margin: 0px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    font-size: 24px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.section-title h2{
+    margin: 0;
+}
 
 #projects{
+    padding: 20px;
     display: grid;
     grid-template-columns:repeat(2, 1fr);
     grid-gap: 20px;
+}
+
+.project h3{
+    background: #191919;
+    height: 48px;
+    padding: 6px 24px;
+    text-align: center;
+    color: #FAF0CA;
+    margin: 0px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 0;
 }
 
 .project img{
