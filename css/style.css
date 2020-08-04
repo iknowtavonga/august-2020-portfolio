@@ -99,13 +99,17 @@ nav{
     color: black;
 }
 
-.par{
-    line-height: 10;
-    /*position: relative;
-    z-index: -1;
-    top: 0px;*/
+/*Portfolio Projects section*/
+
+#projects{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    grid-gap: 20px;
 }
 
+.project img{
+    width: 100%;   
+}
 @media (min-width: 320px) and (max-width: 634px){
     body{
         font-size: 1em;
