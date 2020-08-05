@@ -14,7 +14,7 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 /*Top Welcome section*/
-.welcome{
+#welcome{
     background: #191919;
     height: 48px;
     padding: 6px 24px;
@@ -28,7 +28,7 @@ body{
     text-transform: uppercase;
 }
 
-.welcome h3{
+#welcome h3{
     margin: 10px 0;
 }
 
@@ -144,7 +144,7 @@ nav{
 }
 
 /*About Me*/
-.about-me{
+#about-me{
     margin: 0 20px;
     display: flex;
     flex-direction: column;
@@ -152,7 +152,7 @@ nav{
     justify-content: center;
 }
 
-.about-me h2{
+#about-me h2{
     margin: 0;
 }
 
