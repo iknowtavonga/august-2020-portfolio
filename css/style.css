@@ -156,6 +156,17 @@ nav{
     margin: 0;
 }
 
+
+/*Contact Details*/
+
+#contact-details{
+    padding:20px;
+    display: grid;
+    grid-template-columns:repeat(5, 1fr);
+    margin: 0 auto;
+}
+
+
 @media (min-width: 320px) and (max-width: 634px){
     body{
         font-size: 1em;
