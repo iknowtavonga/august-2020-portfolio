@@ -269,5 +269,13 @@ nav{
     .section-title h2{
         font-size: 1em;
     }
+
+    #projects{
+        grid-template-columns: 1fr;
+    }
+
+    #contact-details{
+        grid-template-columns:repeat(2, 1fr);
+    }
 }
 
