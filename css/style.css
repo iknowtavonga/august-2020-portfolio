@@ -160,10 +160,16 @@ nav{
 /*Contact Details*/
 
 #contact-details{
+    height: auto;
     padding:20px;
     display: grid;
     grid-template-columns:repeat(5, 1fr);
-    margin: 0 auto;
+    
+}
+
+#social-network a{
+    text-decoration: none;
+    color: inherit;
 }
 
 @media (min-width: 426px) and (max-width: 768px){
