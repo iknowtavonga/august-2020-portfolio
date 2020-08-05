@@ -166,13 +166,12 @@ nav{
     margin: 0 auto;
 }
 
-
-@media (min-width: 320px) and (max-width: 634px){
+@media (min-width: 320px) and (max-width: 425px){
     body{
         font-size: 1em;
     }
 
-    .welcome{
+    #welcome{
         display: none;
     }
 
@@ -186,4 +185,57 @@ nav{
         font-size: 0.5em;
     }
 
+}
+
+
+@media (min-width: 426px) and (max-width: 768px){
+    body{
+        font-size: 0.9em;
+    }
+
+    #welcome{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #welcome h3{
+        font-size: 0.8em;
+        margin: 2px 0;
+    }
+
+    nav{
+        height: 50px;
+    }
+
+    .navigation{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navigation a{
+        font-size: 1.2em;
+        padding: 15px 15px;
+    }
+
+    #showcase button{
+        height: 40px;
+        width: 80px;
+    }
+
+    #showcase button a{
+        padding: 5px 5px;
+    }
+
+    .section-title{
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-title h2{
+        font-size: 1em;
+    }
 }
