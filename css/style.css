@@ -158,12 +158,18 @@ nav{
 
 
 /*Contact Details*/
+.cd-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 #contact-details{
+    padding: 10px;
     height: auto;
-    padding:20px;
     display: grid;
     grid-template-columns:repeat(5, 1fr);
+    grid-gap: 10vw;
     
 }
 
